@@ -20,9 +20,7 @@
 .portfolio-list {
   list-style: none;
 }
-.portfolio-button-nav {
-  border-style: none;
-}
+
 .contact-link,
 .link {
   text-decoration: none;
@@ -109,6 +107,7 @@
   letter-spacing: 0.06em;
   color: var(--primary-background-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 .modal-button:hover,
 .modal-button:focus {
@@ -117,6 +116,11 @@
 /* ======================== Основное содержимое ======================== */
 
 /* ======================== Преимущества ========================*/
+
+.visually-hidden.section-title {
+  position: fixed;
+  transform: scale(0);
+}
 
 .feature-title {
   font-weight: 700;
@@ -202,6 +206,8 @@
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   background-color: var(--section-background-color);
+  cursor: pointer;
+  border-style: none;
 }
 
 .portfolio-button-nav:hover,

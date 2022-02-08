@@ -22,7 +22,8 @@
 }
 
 .contact-link,
-.link {
+.link,
+.portfolio-link {
   text-decoration: none;
 }
 /* ========================== Шапка страницы =================== */
